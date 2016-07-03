@@ -1,0 +1,68 @@
+.introClass {    
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('./../images/img02.png');
+    width: 100%;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.perfClass {    
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #FFFFFF;
+    width: 100%;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.litClass {    
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('./../images/img02.png');
+    width: 100%;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.musicClass {    
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('./../images/img02.png');
+    width: 100%;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.exhibitClass {    
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('./../images/img02.png');
+    width: 100%;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.logoClass
+{
+    height: 100%;
+    width:100%;
+}
+
+.current-event{
+  background: url('./../images/img01.png');
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 350px;
+  margin: 0 auto;  
+}
+
+.titles{
+    vertical-align: top;
+}

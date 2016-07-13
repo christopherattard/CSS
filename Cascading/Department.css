@@ -1,0 +1,7 @@
+/*div p {
+background-color: blue;
+}*/
+
+div p:first-of-type {
+background-color: blue;
+}

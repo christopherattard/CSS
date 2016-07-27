@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>CSS Grid Layout</title>    
+    <!-- Need to enable 'Experimental Web Platform features' on chrome by typing "chrome://flags" in the address bar -->    
     <style>
         .item-a{
             grid-area: header;
@@ -21,13 +22,14 @@
         }
 
         .container{        
-            display: grid;
-            grid-gap: 10px;
-            grid-template-columns: 50px 50px 50px 50px;
+            display: grid;            
+            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto;
             grid-template-areas: "header header header header"
                                 "main main . sidebar"
                                 "footer footer footer footer";
+            /*grid-gap: 15px;*/
+            justify-content: stretch;
                         
         }
     </style>

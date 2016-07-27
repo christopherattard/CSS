@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSS Grid Layout</title>    
+    <!-- Need to enable 'Experimental Web Platform features' on chrome by typing "chrome://flags" in the address bar -->    
+    <style>
+        .container{        
+            display: grid;            
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;                        
+        }
+        .blueBox {
+            grid-row: 2;
+            grid-column: 2;
+            wrap-flow: auto;
+            float: none;
+            background-color: blue;
+        }
+
+        .text {
+            grid-row: 1;
+            grid-column: 1;
+            grid-row-span: 3;
+            grid-column-span: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <div class="blueBox"></div>
+            <div class="content"></div>        
+        </div>              
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nth-Child</title> 
+    <script src="/projects/CSS/scripts/jquery-3.0.0.min.js"></script>   
+</head>
+<body>
+    <div id="container">
+        <ul>
+            <li>First Item List
+            <ul>
+                <li>Child List Item</li>
+            </ul>
+            </li>
+            <li>Second List Item</li>
+            <li>Third List Item</li>
+            <li>Fourth List Item</li>
+            </ul>
+    </div>
+
+    <script>
+        $('div#container > ul').css("border", "1px solid black");
+        
+        /*Gets all matching ul elements*/
+        /*$('ul:first-of-type').css("border", "1px solid black");*/
+
+        /*Does not work - container is an id and not class */
+        /* Need to use # instead of . */
+        /*$('.container > ul').css("border", "1px solid black");*/
+    </script>
+</body>
+</html>
